@@ -1,0 +1,8 @@
+tflogs.txt
+.terraform.lock.hcl
+*.pem
+*.exe
+*.backup
+*.p12
+*.key
+*.pub

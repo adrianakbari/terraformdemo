@@ -1,0 +1,8 @@
+#cloud-config
+
+runcmd:
+ - sudo mkdir /data
+ - sudo chown azureuser -R /data
+ - sudo apt update
+ - sudo sed -i -e '55aazureuser        soft    nofile          65536' /etc/security/limits.conf
+ - sudo sed -i -e '56aazureuser        hard    nofile          65536' /etc/security/limits.conf
