@@ -40,8 +40,10 @@ resource "azurerm_subnet_network_security_group_association" "workloadsubnetasc"
   network_security_group_id = azurerm_network_security_group.webserver.id
 }
 #################### VM Management ####################
+#To be developed....
 #################### / VM Management ##################
 #################### LB ######################
+#To be developed....
 #################### / LB ####################
 #################### vm web ####################
 # Create network interface

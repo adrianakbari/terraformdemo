@@ -6,3 +6,4 @@ tflogs.txt
 *.p12
 *.key
 *.pub
+*.tfstate

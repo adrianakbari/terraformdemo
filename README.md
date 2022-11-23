@@ -9,7 +9,6 @@ Refer to part 1 of the automatomating GIS deployment series.
 
 ## Architecture
 A multi-tier architecture with 3 tiers: A web tier, A GIS tier and a Database tier.
-![architecture](img/img.jpg?raw=true "Architecture") 
 For installating the whole GIS Stack on a single VM use Esri provided azure image. Thats faster!
 
 ## Prerequisite
